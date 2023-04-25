@@ -20,4 +20,7 @@ To remove this high bias we produce two sets of independent simulated paths. We 
 
 There are, at present, two main approaches to estimating the parameters from the training set, using least squares regression (first described in [3]) and using maximisation of option value. The first approach uses least squares regression to fit the parametric representation of the hold value to pre-calculated results, using the fact that at each notice date we know exactly what the best possible decision would have been. The second approach uses numerical optimisation to search for the set of parameters that induces the highest value of the option, using pre-calculated hold values to compute the objective function at each step of numerical maximisation. The two approaches are equivalent, in that they use the same information, in the same order 13 and produce a set of parameters that maximise the option value, the only difference being the approach to optimisation.
 
-Callable exotics are among the most challenging derivatives to price. These products are loosely defined by the provision that gives the holder or issuer the right to call the product after a lock-out period. See more at https://finpricing.com/lib/EqCallable.html
+Reference:
+
+https://finpricing.com/product.html
+
